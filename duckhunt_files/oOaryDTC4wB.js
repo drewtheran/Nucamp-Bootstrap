@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["psQtp"]); }
+
+__d("composerTypeToLivingRoomSource",["LivingRoomCreationSource","recoverableViolation"],(function(a,b,c,d,e,f){"use strict";__p&&__p();function a(a){__p&&__p();if(a==null){b("recoverableViolation")("No composerType specificed when creating a Watch Party","living_room_www");return"unknown_composer"}switch(a){case"edit":return"edit";case"feed":return"newsfeed_composer";case"fundraiser":return"fundraiser_composer";case"group":return"group_composer";case"page":return"page_composer";case"memories":case"share":return"ufi_share";default:b("recoverableViolation")("Unsupported composer type used to create a Watch Party","living_room_www");return"unknown_composer"}}e.exports=a}),null);

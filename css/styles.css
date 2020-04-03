@@ -43,12 +43,15 @@ body {
     margin-left: 90px;
 
     }
+
+    .carousel-inner > .item {
+      height: 100px;
+   }
+    
   
   
   #carousel {
-
       margin-top: 50px;
-  
   }
   
   .carousel {

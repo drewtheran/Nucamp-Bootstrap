@@ -14,11 +14,6 @@ body {
     background-image: linear-gradient(rgb(74, 173, 230), rgb(212, 224, 224));
     padding: 20px 0; }
   
-  .jumbotron {
-    padding: 30px;
-    background-image: linear-gradient(to right, rgb(74, 173, 230), #3046C5);
-    color: white;
-    margin: 0; }
   
   .row-content {
     padding: 50px 0;
@@ -27,20 +22,22 @@ body {
   
   .navbar {
     background-color: rgb(92, 156, 216);
-    padding-top: 1px;
-    padding-bottom: 1px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
  }
 
 .navbar-nav {
     list-style-type: none;
     }
 .navbar-nav li {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 45px;
+    padding-right: 45px;
     position: relative;
     display: inline-block;
-    margin-right: 90px;
-    margin-left: 90px;
+    margin-right: 30px;
+    margin-left: 30px;
 
     }
 

@@ -8,12 +8,17 @@ body {
     color: #3046C5; }
   
   header h2 {
-    color: #CEC8FF; }
+    color: #CEC8FF; 
+
+  }
+
   
   footer {
     background-image: linear-gradient(rgb(74, 173, 230), rgb(212, 224, 224));
     padding: 20px 0; }
-  
+
+
+    
   
   .row-content {
     padding: 50px 0;
@@ -38,14 +43,25 @@ body {
     display: inline-block;
     margin-right: 30px;
     margin-left: 30px;
-
     }
 
     .carousel-inner > .item {
       height: 100px;
    }
+
+   div.row {
+     border: 0px solid;
+     border-bottom: 0px
+   }
+
+   .container div.row:last-child {
+    border-bottom: 0px solid;
+  }
+
     
-  
+  .jumbotron {
+    background-color: rgb(73, 113, 223);
+  }
   
   #carousel {
       margin-top: 50px;

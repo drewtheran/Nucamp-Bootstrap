@@ -12,9 +12,13 @@ body {
 
   }
 
+  header h1 {
+    color: #CEC8FF;
+  }
+
   
   footer {
-    background-image: linear-gradient(rgb(74, 173, 230), rgb(212, 224, 224));
+    background-color: rgb(92, 156, 216);
     padding: 20px 0; }
 
 

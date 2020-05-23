@@ -1,28 +1,50 @@
 body {
-    font-family: "Open Sans", sans-serif; }
+    font-family: "Open Sans", sans-serif; 
+    background-color: rgba(209, 227, 235, 0.849);
+  }
   
   h1, h2, h3 {
     font-family: "Lobster", cursive; }
   
+  h1 {
+    color: rgb(114, 162, 201);
+  }
+  
   h2 {
-    color: #3046C5; }
+    color: rgb(86, 120, 214); }
   
   header h2 {
-    color: #CEC8FF; 
+    color: rgb(114, 162, 201); 
 
   }
 
   header h1 {
-    color: #CEC8FF;
+    color: rgb(114, 162, 201); 
   }
-
   
   footer {
-    background-color: rgb(92, 156, 216);
+    background-color: rgb(122, 142, 185);
     padding: 20px 0; }
+  
+  footer ul {
+    list-style: none;
+    color: rgb(114, 162, 201); 
 
 
-    
+  }
+
+    a {
+      color: rgb(196, 213, 218)
+    }
+
+    .fa {
+      color: rgb(196, 213, 218)
+    }
+
+    .text-primary {
+      color: rgb(196, 213, 218)
+    }
+   
   
   .row-content {
     padding: 50px 0;
@@ -30,7 +52,7 @@ body {
     min-height: 200px; }
   
   .navbar {
-    background-color: rgb(92, 156, 216);
+    background-color: rgb(122, 142, 185);
     padding-top: 2px;
     padding-bottom: 2px;
     padding-left: 5px;
@@ -63,8 +85,8 @@ body {
   }
 
     
-  .jumbotron {
-    background-color: rgb(73, 113, 223);
+  .card {
+    background-color: rgb(177, 180, 196);
   }
   
   #carousel {

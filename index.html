@@ -30,20 +30,26 @@
         <nav class="navbar navbar-expand-lg sticky-top">
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav col-md-9 col-lg-12">
-                    <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-home fa-lg"></i>Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="about.html"><i class="fa fa-address-card" aria-hidden="true"></i>About</a></li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link drop-toggle" href="works.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-wrench" aria-hidden="true"></i>
-                       Works</a>
-                        <button class="dropdown menu">
-                                <a class="dropdown-item">Musical Performances</a>
-                                <a class="dropdown-item">Audio Recordings</a>
-                                <a class="dropdown-item">Video Productions</a>
-                                <a class="dropdown-item">Web Apps</a>
-                        </button>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#"><i class="fa fa-home fa-lg"></i>Home</a>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="services.html"><i class="fa fa-bell-o" aria-hidden="true"></i>Services</a></li>
-                    <li class="nav-item"><a class="nav-link" href="calendar.html"><i class="fa fa-calendar" aria-hidden="true"></i>Calendar</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html"><i class="fa fa-address-card" aria-hidden="true"></i>About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link dropdown-toggle" href="works.html" id="navbarDropdown" role="button" data-toggle="dropdown"><i class="fa fa-wrench" aria-hidden="true"></i>Works</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item">Musical Performances</a>
+                            <a class="dropdown-item">Audio Recordings</a>
+                            <a class="dropdown-item">Video Productions</a>
+                            <a class="dropdown-item">Web Apps</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html"><i class="fa fa-bell-o" aria-hidden="true"></i>Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="calendar.html"><i class="fa fa-calendar" aria-hidden="true"></i>Calendar</a></li>
                     <li class="nav-item"><a class="nav-link" href="contact.html"><i class="fa fa-envelope" aria-hidden="true"></i>Contact</a></li>
                 </ul>
             </div>
@@ -88,7 +94,8 @@
         <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
         <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
         <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous">
+        </script>
         <script>
             $('.navbar .dropdown').hover(function() {
                 $(this).find('.dropdown-menu').first().stop(true, true).delay(250).slideDown();
